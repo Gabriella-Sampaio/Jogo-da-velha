@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.cell{
+    background-color: beige;
+    border: 2px solid #333;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cell:hover{
+    background-color: rgb(116, 116, 67);
+}
+
+#status{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

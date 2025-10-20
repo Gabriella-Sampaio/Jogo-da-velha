@@ -1,0 +1,19 @@
+Lógica geral:
+    1 - verifica se o jogo esá ativo e escutar célula
+    2 - verifica se o índice do vetor está vazio
+    3 - preenche o vetor [índice] com o jogador
+    4 - verifica se há vencedor [B]
+    5 - verifica se todas as células foram preenchidas
+    6 - muda jogador
+    7 - reinicia [A]
+
+
+[A] Reinicia o jogo
+    * Todas as células vazias
+    * Jogador atual "X"
+    * Limpar o vetor
+    * Jogo como ativo
+
+[B] Vencedor
+    * Buscar nas combinações do vetor se há uma combinação com o mesmo símbolo em todas as 3 posições
+    * Muda p jogo inativo se verdadeiro
