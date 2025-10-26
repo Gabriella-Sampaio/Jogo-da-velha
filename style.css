@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: aliceblue;
+    background-color: #e4cdcc;
     margin: 0;
     padding: 20px;
 }
@@ -19,8 +19,8 @@ h1 {
 }
 
 .cell{
-    background-color: beige;
-    border: 2px solid #333;
+    background-color: #c49996;
+    border: 2px solid #441b11;
     font-size: 2em;
     display: flex;
     align-items: center;
@@ -29,11 +29,17 @@ h1 {
 }
 
 .cell:hover{
-    background-color: rgb(116, 116, 67);
+    background-color: #e4cdcc;
 }
 
 #status{
     font-size: 1.2em;
     margin-bottom: 10px;
     cursor: pointer;
+}
+
+#restartBtn{
+    background-color: #441b11;
+    color: #e4cdcc;
+    padding: 12px;
 }

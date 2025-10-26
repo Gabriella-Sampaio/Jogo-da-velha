@@ -1,5 +1,5 @@
 Lógica geral:
-    1 - verifica se o jogo esá ativo e escutar célula
+    1 - verifica se o jogo está ativo e escutar célula
     2 - verifica se o índice do vetor está vazio
     3 - preenche o vetor [índice] com o jogador
     4 - verifica se há vencedor [B]
